@@ -19,7 +19,7 @@ spec:
         app: backend
     spec:
       containers:
-        - image: ghcr.io/eficode-academy/quotes-flask-backend:release
+        - image: ghcr.io/sofusalbertsen/quotes-flask-backend:release
           name: backend
           ports:
             - containerPort: 5000

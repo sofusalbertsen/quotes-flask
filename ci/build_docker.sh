@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-REGISTRY="ghcr.io/eficode-academy"
+REGISTRY="ghcr.io/sofusalbertsen"
 FRONTEND_REPOSITORY="quotes-flask-frontend"
 BACKEND_REPOSITORY="quotes-flask-backend"
 
