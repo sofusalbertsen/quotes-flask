@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+   name: postgres-pv # Name of the persistent volume
+   labels:
+     type: local
+spec:
+   storageClassName: hostpath # Name of the storage class
+   capacity:
+     storage: 3Gi # Amount of storage this volume should hold
+   accessModes:
+     - ReadWriteOnce # To be read and written only once
+   hostPath: # Storage class type
+     path: '/mnt/data' # File path to mount volume   
