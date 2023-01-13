@@ -19,7 +19,7 @@ spec:
         app: frontend
     spec:
       containers:
-        - image: ghcr.io/sofusalbertsen/flask-quotes-frontend:release
+        - image: ghcr.io/sofusalbertsen/quotes-flask-frontend:release
           name: quotes-flask-frontend
           ports:
             - containerPort: 5000
